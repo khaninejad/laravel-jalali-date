@@ -1,0 +1,23 @@
+{
+    "name": "keraken/laravel-jalali-date",
+    "description": "Laravel Jalali datetime component known as ZAMAN",
+    "keywords": ["datetime", "laravel", "jalali", "shamsi", "hijri", "jDatetime", "Gregorian", "moment"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aboozar Ghaffari <Tartan>",
+            "email": "iamtartan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.x.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Keraken\\Zaman\\": "src/Zaman"
+        }
+    },
+    "minimum-stability": "stable"
+}
